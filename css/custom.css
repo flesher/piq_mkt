@@ -10,7 +10,7 @@
       left: 0;
       right: 0;
       z-index: 10;
-      height: 95px;
+      height: 45px;
       background-image: url("../img/nav.png");
       background-repeat: repeat-x;
   -webkit-box-shadow: 0px 0px 13px 1px #9e9e9e;
@@ -50,7 +50,7 @@
     }
 
     .carousel .item {
-      height: 500px;
+      height: 450px;
       margin-top: -10px;
     }
     .carousel img {
@@ -62,7 +62,7 @@
       position: relative;
       background-color: transparent;
       padding: 0;
-      margin: 9% auto;
+      margin: 5% auto 0 auto;
     }
     .carousel-caption h1,
     .carousel-caption .lead {
@@ -276,7 +276,7 @@ margin-top: 20px;
   background-repeat: repeat-x;
   background-position: bottom;
   color: #333;
-  height: 400px;
+  padding-bottom: 20px;
 }
 
   @media (max-width: 767px){
@@ -363,6 +363,19 @@ h4 span{
   text-align: right;
 }
 
+.twitter {
+  height: 40px;
+}
+
+.facebook {
+  height: 22px;
+}
+
+.email {
+  height: 18px;
+  padding-left: 5px;
+}
+
 @media (max-width: 980px){
   .social{
   margin-top:15px;
@@ -440,7 +453,7 @@ width: 779px;
 
 .carousel-inner h1{
   max-width: 810px;
-  margin: 30px auto 52px auto;
+  margin: 0 auto 52px auto;
   font-size: 35px;
   text-align: center;
   font-weight: 300;
