@@ -1,0 +1,147 @@
+/*Global*/
+
+body{
+	transition: background-image .4s;
+	-moz-transition: background-image .4s; 
+	-webkit-transition: background-image .4s; 
+	-o-transition: background-image .4s; 	
+	background-image: url(../img/landing_image2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: helvetica, sans-serif;	
+	margin: 0 0;
+	padding: 0 0;
+	height: 100%;
+	width: 100%;
+}
+
+.contain {
+	width: 1044px;
+	margin: 0 auto;
+}
+
+/*header*/
+
+#heading {
+	margin-top: 17px;
+	position: relative;
+}
+
+#heading h1 {
+	margin: 0 20px 0 0;
+	text-indent: -9999em;
+	height: 113px;
+	width: 197px;
+	background: url(../img/logo_03.png) no-repeat;
+	display: inline-block;
+}
+
+#heading h2 {
+	display: inline-block;
+	font-size: 225%;
+	color: #6dc7da;
+	position: relative;
+	float: right;
+	margin: 0 0;
+	top: 35px;
+	text-shadow: 0 3px 5px rgba(0,0,0,.31);
+}
+
+#heading h2 span {
+	color: white;
+}
+
+
+
+#mc_embed_signup {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: #6dc7da;
+	border-top: solid 2px #8c569e;
+
+}
+
+#label {
+	color: white;
+	font-size: 120%;
+	background: #6dc7da;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	padding: 2px 2px;
+	width: 210px;
+	text-align: center;
+}
+
+#mc_embed_signup form {
+	padding: 10px 10px;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	float: right;
+}
+
+#mc_embed_signup h2 {
+	display: inline-block;
+	float: right;
+	margin: 0 0;
+	padding: 12px 10px 0 10px;
+	color: white;
+	text-shadow: 0 3px 5px rgba(0,0,0,.11);
+}
+
+
+
+#mce-EMAIL {
+	width: 400px;
+	display: inline-block;
+	padding: 0 0;
+	margin: 0 0;
+	height: 28px;
+	border: solid 2px #8c569e;
+}
+
+#mce-EMAIL[value] {
+	font-size: 75%;
+	color: #bbb;
+	font-style: italic;
+	vertical-align: top;
+	padding-left: 5px;
+}
+
+#mc-embedded-subscribe {
+/*	width: 200px;*/
+	display:inline-block;
+	margin: 0 0;
+	height: 32px;
+	vertical-align: top;
+	background-color: #8c569e;
+	border: 0;
+	cursor: pointer;
+}
+
+#mc-embedded-subscribe img {
+	height: 24px;
+	width: auto;
+	padding-top: 2px;
+}
+
+p {
+	background: #8c569e;
+	font-size: 150%;
+	font-weight: 100; 
+	color: white;
+	width: 420px;
+	margin: 10px 0 0 -40px;
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px rgba(0,0,0,.31);
+}
+
+p:nth-of-type(2) {
+	background: #6dc7da;
+}
+
+
+
