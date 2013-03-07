@@ -1,6 +1,6 @@
 
     body {
-      background-image: url("../img/satinweave.png");
+/*      background-image: url("../img/satinweave.png");*/
       color: #333;
     }
 
@@ -54,17 +54,15 @@
       margin-top: -10px;
     }
     .carousel img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
+      margin: 0 auto;
+      max-width: 900px;
     }
 
     .carousel-caption {
+      position: relative;
       background-color: transparent;
-      max-width: 650px;
       padding: 0;
-      margin: 30% auto 0 auto;
+      margin: 9% auto;
     }
     .carousel-caption h1,
     .carousel-caption .lead {
@@ -118,11 +116,16 @@
       margin-left: 10px;
     }
 
+    .marketing h1 {
+      font-weight: 300;
+    }
+
     .marketing .span4 p {
       margin-left: 10px;
       margin-right: 10px;
       font-size: 19px;
-      font-weight: 100;
+      font-weight: 300;
+      letter-spacing: 2px;
       line-height: 1.4;
     }
 
@@ -268,11 +271,12 @@ margin-top: 20px;
 }
 
 .row33 {
-  background-color: #a83131;
-  background-image: url('../img/eq_2.png');
+  background-color: #f7f7f7;
+/*  background-image: url('../img/eq_2.png');*/
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #fff;
+  color: #333;
+  height: 400px;
 }
 
   @media (max-width: 767px){
@@ -381,8 +385,8 @@ padding-top: 114px;
 }
 
 #myCarousel{
-  background-image: url("../img/satinweave.png");
-}
+/*  background-image: url("../img/satinweave.png");
+*/}
 
 .navbar-inner {
   max-width: 1200px;
@@ -436,10 +440,12 @@ width: 779px;
 
 .carousel-inner h1{
   max-width: 810px;
-  margin: 20px auto 40px auto;
+  margin: 30px auto 52px auto;
   font-size: 35px;
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
 }
 
 @media (max-width: 767px){
@@ -466,6 +472,8 @@ width: 779px;
   margin: 12px auto;
   font-size: 28px;
   line-height: 36px;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 500px){
@@ -502,13 +510,15 @@ width: 779px;
 }
 
 #mce-EMAIL {
-  border: 2px solid #7acbe0;
+  border: 1px solid rgb(214,214,214);
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   height: 30px;
   width: 300px;
   font-size: 24px;
+  color: rgb(116, 116, 116);
+  font-weight: 100;
 }
 
 @media (max-width: 500px){
